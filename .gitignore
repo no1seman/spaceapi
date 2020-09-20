@@ -1,0 +1,14 @@
+.~*
+*~
+.rocks
+*.rock
+release
+release-doc
+doc
+.idea
+CMakeCache.txt
+CMakeFiles
+build.luarocks
+cmake_install.cmake
+.history
+.vscode
