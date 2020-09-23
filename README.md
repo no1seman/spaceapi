@@ -2,7 +2,7 @@
 
 Tarantool Cartirdge have builtin GraphQL implementation which may be used for many purposes. This tiny library gets the power of GraphQL to space management in Tarantool Cartridge.
 
-As for now it suuports only CR_D of CRUD for all spaces avaible for current user (U will be avaible a bit later).
+As for now it supports only CR_D of CRUD for all spaces avaible for current user (U will be avaible a bit later).
 
 For test you can use [GrpahiQLIDE](https://github.com/no1seman/graphiqlide) for Tarantool Cartridge
 
@@ -194,3 +194,8 @@ mutation {
 ```
 
 Like query "space()" mutation "space_remove()" has 2 arguments: "name" and "id". You can delete space its "name" or by "id". If "name" and "id" provided simultaneously error will be raised.
+
+## Test
+
+Use "test/test.sh" (GNU bash) script to test
+Attention, don't forget to specify server URI and login/password in "test.sh"
